@@ -15,7 +15,7 @@ Improve efficiency by using parallelized genetic algorithms to solve the problem
 - `README.md`：项目说明文档。
 
 ## 运行方式
-python main.py
+`python main.py`
 
 ## 结果
 程序运行后，将输出最优路径及其对应的总距离。
