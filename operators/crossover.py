@@ -1,10 +1,13 @@
 import numpy as np
 from config.config import CROSSOVER_RATE
 
-"""
-交叉
-"""
 def crossover(parent1, parent2):
+    """
+    交叉
+    :param parent1: 父代1
+    :param parent2: 父代2
+    :return: 子代
+    """
     if np.random.rand() < CROSSOVER_RATE:
         size = len(parent1)
         p1, p2 = np.random.randint(0, size, 2)

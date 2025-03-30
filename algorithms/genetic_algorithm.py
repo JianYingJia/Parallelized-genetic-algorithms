@@ -7,6 +7,11 @@ from operators.mutation import mutate
 from config.config import POP_SIZE, GENS, MIGRATION_INTERVAL
 
 def genetic_algorithm(island_id, queue):
+    """
+    基因算法
+    :param island_id: 群岛ID
+    :param queue: 消息队列
+    """
     population = initialize_population(POP_SIZE)
 
     for generation in range(GENS):

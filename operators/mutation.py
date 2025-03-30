@@ -1,10 +1,12 @@
 import numpy as np
 from config.config import MUTATION_RATE
 
-"""
-变异
-"""
 def mutate(individual):
+    """
+    变异
+    :param individual: 待变异的个体
+    :return: 变异后的个体
+    """
     # 如果随机数小于变异率，则进行变异操作
     if np.random.rand() < MUTATION_RATE:
         # 随机选择两个位置
