@@ -18,3 +18,4 @@ MIGRATION_INTERVAL = 20
 # 随机生成城市坐标
 np.random.seed(42)
 cities = np.random.rand(NUM_CITIES, 2)
+# print(f"随机生成的城市坐标{cities}")
