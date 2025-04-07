@@ -5,7 +5,7 @@ NUM_CITIES = 20
 # 种群大小
 POP_SIZE = 100
 # 迭代次数
-GENS = 200
+GENS = 100000
 # 变异率
 MUTATION_RATE = 0.2
 # 交叉率
